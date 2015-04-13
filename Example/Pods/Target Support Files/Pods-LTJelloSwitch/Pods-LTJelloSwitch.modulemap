@@ -1,0 +1,6 @@
+framework module Pods_LTJelloSwitch {
+  umbrella header "Pods-LTJelloSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

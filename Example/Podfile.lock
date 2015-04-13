@@ -1,0 +1,14 @@
+PODS:
+  - LTJelloSwitch (0.1.0)
+
+DEPENDENCIES:
+  - LTJelloSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  LTJelloSwitch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LTJelloSwitch: 30686c4bd8bec960f19224294457863f2e4b2344
+
+COCOAPODS: 0.36.3
