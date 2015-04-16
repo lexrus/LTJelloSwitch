@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Pvm-L5-fgN">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
@@ -60,7 +59,7 @@
                                                     <color key="backgroundColor" red="0.9490196704864502" green="0.90588241815567017" blue="0.79607850313186646" alpha="1" colorSpace="deviceRGB"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="color" keyPath="onColor">
-                                                            <color key="value" red="0.90196084976196289" green="0.51764708757400513" blue="0.38823533058166504" alpha="1" colorSpace="deviceRGB"/>
+                                                            <color key="value" red="0.8666666666666667" green="0.43137254901960786" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="color" keyPath="offColor">
                                                             <color key="value" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>

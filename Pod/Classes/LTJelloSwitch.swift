@@ -18,7 +18,7 @@ let kPullingThreshold: CGFloat = 40
 @IBDesignable public class LTJelloSwitch: UIControl, UIScrollViewDelegate
 {
 
-    @IBInspectable public var on = false {
+    @IBInspectable public var on: Bool = false {
         didSet {
             self.jelloView.jelloColor = on ? self.onColor : self.offColor
             self.onView.hidden = !on
@@ -28,8 +28,8 @@ let kPullingThreshold: CGFloat = 40
         }
     }
     
-    @IBInspectable public var onColor = UIColor.blueColor()
-    @IBInspectable public var offColor = UIColor.lightGrayColor()
+    @IBInspectable public var onColor: UIColor = UIColor.blueColor()
+    @IBInspectable public var offColor: UIColor = UIColor.lightGrayColor()
 
     public var delegate: LTJelloSwitchDelegate?
     
