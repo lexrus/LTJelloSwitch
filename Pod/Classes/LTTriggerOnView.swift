@@ -10,7 +10,7 @@ import UIKit
 
 public class LTTriggerOnView: UIView
 {
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
@@ -33,7 +33,7 @@ public class LTTriggerOnView: UIView
         let titleColor = UIColor.whiteColor()
         
         //// Oval Drawing
-        var ovalPath = UIBezierPath(ovalInRect: CGRectMake(7, 2, 32, 32))
+        let ovalPath = UIBezierPath(ovalInRect: CGRectMake(7, 2, 32, 32))
         tintColor.setFill()
         ovalPath.fill()
         
@@ -43,7 +43,7 @@ public class LTTriggerOnView: UIView
         CGContextTranslateCTM(context, 5.07, 16.51)
         CGContextRotateCTM(context, 8 * CGFloat(M_PI) / 180)
         
-        var polygonPath = UIBezierPath()
+        let polygonPath = UIBezierPath()
         polygonPath.moveToPoint(CGPointMake(6.5, 0))
         polygonPath.addLineToPoint(CGPointMake(12.13, 10.5))
         polygonPath.addLineToPoint(CGPointMake(0.87, 10.5))
@@ -60,7 +60,7 @@ public class LTTriggerOnView: UIView
         CGContextRotateCTM(context, -20.44 * CGFloat(M_PI) / 180)
         
         let textRect = CGRectMake(0, 0, 21, 12)
-        var textTextContent = NSString(string: "On")
+        let textTextContent = NSString(string: "On")
         let textStyle = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as! NSMutableParagraphStyle
         textStyle.alignment = NSTextAlignment.Left
         

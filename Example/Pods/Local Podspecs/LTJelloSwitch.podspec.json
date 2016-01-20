@@ -1,8 +1,7 @@
 {
   "name": "LTJelloSwitch",
   "version": "0.1.0",
-  "summary": "A short description of LTJelloSwitch.",
-  "description": "                       An optional longer description of LTJelloSwitch\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "summary": "A rapid prototype built with Swift and PaintCode.",
   "homepage": "https://github.com/lexrus/LTJelloSwitch",
   "license": "MIT",
   "authors": {
@@ -17,7 +16,7 @@
     "ios": "8.1"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
+  "source_files": "Pod/Classes/*.swift",
   "frameworks": [
     "UIKit",
     "QuartzCore"

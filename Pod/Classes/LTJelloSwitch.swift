@@ -70,7 +70,7 @@ let kPullingThreshold: CGFloat = 40
         for view in self.subviews {
             if !view.isKindOfClass(UIScrollView.self) || view as! UIScrollView != s {
                 view.removeFromSuperview()
-                s.addSubview(view as! UIView)
+                s.addSubview(view )
             }
         }
         
@@ -121,7 +121,7 @@ let kPullingThreshold: CGFloat = 40
         return v
     }()
     
-    public required init(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         object_setClass(self, LTJelloSwitch.self)
         setup()
@@ -153,10 +153,10 @@ let kPullingThreshold: CGFloat = 40
         scrollView.removeObserver(self, forKeyPath: "contentOffset")
     }
     
-    public override func observeValueForKeyPath(keyPath: String, ofObject object: AnyObject, change: [NSObject : AnyObject], context: UnsafeMutablePointer<Void>) {
+    public override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
         if keyPath == "contentOffset" {
-            if let newValue: AnyObject = change[NSKeyValueChangeNewKey] {
-                let newOffset = newValue.CGPointValue()
+            if let newValue: AnyObject = change?[NSKeyValueChangeNewKey] {
+                let newOffset = newValue.CGPointValue
                 dragOffsetX = newOffset.x
             }
         }

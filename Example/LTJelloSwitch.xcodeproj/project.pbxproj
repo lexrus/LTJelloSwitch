@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33C1C5E1D2B3C338FEF06E0B /* Pods_LTJelloSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB75D7AD6168EBF23726E5F /* Pods_LTJelloSwitch.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,7 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		74CF961817BB460DBCE15042 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B634C482954C7DFD27F7E13F /* Pods_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		93A7F822B7E2875D0CBC6361 /* Pods_LTJelloSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4AE689E74AE284D56703E3 /* Pods_LTJelloSwitch.framework */; };
 		D76F8CAF1ADB9A2000A9F97B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76F8CAE1ADB9A2000A9F97B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +37,7 @@
 /* Begin PBXFileReference section */
 		186096DF43B1683FCD60768B /* LTJelloSwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LTJelloSwitch.podspec; path = ../LTJelloSwitch.podspec; sourceTree = "<group>"; };
 		23C5BCAACBB8EB9F0B780896 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4F4731B69A3F06A1225FC315 /* Pods-LTJelloSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTJelloSwitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTJelloSwitch/Pods-LTJelloSwitch.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LTJelloSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTJelloSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,10 +57,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		719BB6F4CBFDE26A2AB8586E /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8DB75D7AD6168EBF23726E5F /* Pods_LTJelloSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTJelloSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6385FCDDFA5AAE1A7FDB8421 /* Pods-LTJelloSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTJelloSwitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTJelloSwitch/Pods-LTJelloSwitch.debug.xcconfig"; sourceTree = "<group>"; };
 		A6BD2D67F1ED7AC087C8131E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B634C482954C7DFD27F7E13F /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4AE689E74AE284D56703E3 /* Pods_LTJelloSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTJelloSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76F8C9E1ADB6B1800A9F97B /* LTJelloView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTJelloView.swift; sourceTree = "<group>"; };
 		D76F8C9F1ADB6B1800A9F97B /* Pods-LTJelloSwitch-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-LTJelloSwitch-Bridging-Header.h"; sourceTree = "<group>"; };
 		D76F8CA21ADB6B5300A9F97B /* LTJelloSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTJelloSwitch.swift; sourceTree = "<group>"; };
@@ -70,9 +69,6 @@
 		D76F8CAA1ADB977F00A9F97B /* LTOnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTOnView.swift; sourceTree = "<group>"; };
 		D76F8CAC1ADB988500A9F97B /* LTPullingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTPullingView.swift; sourceTree = "<group>"; };
 		D76F8CAE1ADB9A2000A9F97B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		ECCFD5B0FEEAAAB9A80C8828 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F1994B4CE2624BF345C531B8 /* Pods-LTJelloSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTJelloSwitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTJelloSwitch/Pods-LTJelloSwitch.release.xcconfig"; sourceTree = "<group>"; };
-		F2FC0C8D91E4797F9D54A3D1 /* Pods-LTJelloSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTJelloSwitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTJelloSwitch/Pods-LTJelloSwitch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				33C1C5E1D2B3C338FEF06E0B /* Pods_LTJelloSwitch.framework in Frameworks */,
+				93A7F822B7E2875D0CBC6361 /* Pods_LTJelloSwitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,20 +90,17 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				74CF961817BB460DBCE15042 /* Pods_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F54E87445DD41196950CC11 /* Pods */ = {
+		489E1A018A547A2052851E65 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F2FC0C8D91E4797F9D54A3D1 /* Pods-LTJelloSwitch.debug.xcconfig */,
-				F1994B4CE2624BF345C531B8 /* Pods-LTJelloSwitch.release.xcconfig */,
-				ECCFD5B0FEEAAAB9A80C8828 /* Pods-Tests.debug.xcconfig */,
-				719BB6F4CBFDE26A2AB8586E /* Pods-Tests.release.xcconfig */,
+				6385FCDDFA5AAE1A7FDB8421 /* Pods-LTJelloSwitch.debug.xcconfig */,
+				4F4731B69A3F06A1225FC315 /* Pods-LTJelloSwitch.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -121,7 +114,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				2F54E87445DD41196950CC11 /* Pods */,
+				489E1A018A547A2052851E65 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,8 +134,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				8DB75D7AD6168EBF23726E5F /* Pods_LTJelloSwitch.framework */,
-				B634C482954C7DFD27F7E13F /* Pods_Tests.framework */,
+				BE4AE689E74AE284D56703E3 /* Pods_LTJelloSwitch.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,12 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LTJelloSwitch" */;
 			buildPhases = (
-				B56DAFFA3F7D928D101F0E38 /* Check Pods Manifest.lock */,
+				90B1112F0F2E936D8F9B420C /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				80BA412CF2C46B1776D504F4 /* Copy Pods Resources */,
-				EF602FC46601490D02FF72D4 /* Embed Pods Frameworks */,
+				0A732CCFA4D43E61C33FD6F1 /* Embed Pods Frameworks */,
+				4727E7C943F5C6ABD62967E4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,12 +236,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				8C3E7CC4EAA5BF3684807686 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				327252860AE385FBE5F5E0F0 /* Copy Pods Resources */,
-				9C3620F936A4F55FE90A3F21 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,7 +257,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LT;
-				LastUpgradeCheck = 0510;
+				LastSwiftMigration = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Lex Tang";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -317,22 +307,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		327252860AE385FBE5F5E0F0 /* Copy Pods Resources */ = {
+		0A732CCFA4D43E61C33FD6F1 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTJelloSwitch/Pods-LTJelloSwitch-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		80BA412CF2C46B1776D504F4 /* Copy Pods Resources */ = {
+		4727E7C943F5C6ABD62967E4 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,7 +337,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTJelloSwitch/Pods-LTJelloSwitch-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8C3E7CC4EAA5BF3684807686 /* Check Pods Manifest.lock */ = {
+		90B1112F0F2E936D8F9B420C /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,51 +350,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9C3620F936A4F55FE90A3F21 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B56DAFFA3F7D928D101F0E38 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EF602FC46601490D02FF72D4 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTJelloSwitch/Pods-LTJelloSwitch-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -476,6 +421,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -532,7 +478,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2FC0C8D91E4797F9D54A3D1 /* Pods-LTJelloSwitch.debug.xcconfig */;
+			baseConfigurationReference = 6385FCDDFA5AAE1A7FDB8421 /* Pods-LTJelloSwitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -540,6 +486,7 @@
 				GCC_PREFIX_HEADER = "LTJelloSwitch/LTJelloSwitch-Prefix.pch";
 				INFOPLIST_FILE = "LTJelloSwitch/LTJelloSwitch-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -548,7 +495,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1994B4CE2624BF345C531B8 /* Pods-LTJelloSwitch.release.xcconfig */;
+			baseConfigurationReference = 4F4731B69A3F06A1225FC315 /* Pods-LTJelloSwitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -556,6 +503,7 @@
 				GCC_PREFIX_HEADER = "LTJelloSwitch/LTJelloSwitch-Prefix.pch";
 				INFOPLIST_FILE = "LTJelloSwitch/LTJelloSwitch-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -564,7 +512,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECCFD5B0FEEAAAB9A80C8828 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LTJelloSwitch.app/LTJelloSwitch";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -579,6 +526,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -587,7 +535,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 719BB6F4CBFDE26A2AB8586E /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LTJelloSwitch.app/LTJelloSwitch";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -598,6 +545,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

@@ -1,12 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'LTJelloSwitch', :exclusive => true do
+target :LTJelloSwitch do
   pod "LTJelloSwitch", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
-  pod "LTJelloSwitch", :path => "../"
-
-  
-end

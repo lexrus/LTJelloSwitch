@@ -10,7 +10,7 @@ import UIKit
 
 public class LTOffView: UIView
 {
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
@@ -36,7 +36,7 @@ public class LTOffView: UIView
         CGContextTranslateCTM(context, 10, 15)
         CGContextRotateCTM(context, -5.59 * CGFloat(M_PI) / 180)
         
-        var ovalPath = UIBezierPath(ovalInRect: CGRectMake(0, 0, 9, 3))
+        let ovalPath = UIBezierPath(ovalInRect: CGRectMake(0, 0, 9, 3))
         tintColor.setFill()
         ovalPath.fill()
         
@@ -48,7 +48,7 @@ public class LTOffView: UIView
         CGContextTranslateCTM(context, 21, 15)
         CGContextRotateCTM(context, 15.13 * CGFloat(M_PI) / 180)
         
-        var oval2Path = UIBezierPath(ovalInRect: CGRectMake(0, 0, 9, 3))
+        let oval2Path = UIBezierPath(ovalInRect: CGRectMake(0, 0, 9, 3))
         tintColor.setFill()
         oval2Path.fill()
         
@@ -56,7 +56,7 @@ public class LTOffView: UIView
         
         
         //// Bezier Drawing
-        var bezierPath = UIBezierPath()
+        let bezierPath = UIBezierPath()
         bezierPath.moveToPoint(CGPointMake(15, 25))
         bezierPath.addCurveToPoint(CGPointMake(18.5, 23.5), controlPoint1: CGPointMake(15, 25), controlPoint2: CGPointMake(14.5, 23.5))
         bezierPath.addCurveToPoint(CGPointMake(25, 28), controlPoint1: CGPointMake(22.5, 23.5), controlPoint2: CGPointMake(25, 28))
@@ -72,7 +72,7 @@ public class LTOffView: UIView
         CGContextTranslateCTM(context, 10, 12)
         CGContextRotateCTM(context, 7.23 * CGFloat(M_PI) / 180)
         
-        var oval3Path = UIBezierPath(ovalInRect: CGRectMake(0, 0, 9, 1))
+        let oval3Path = UIBezierPath(ovalInRect: CGRectMake(0, 0, 9, 1))
         tintColor.setFill()
         oval3Path.fill()
         
@@ -84,7 +84,7 @@ public class LTOffView: UIView
         CGContextTranslateCTM(context, 21, 14)
         CGContextRotateCTM(context, -8.04 * CGFloat(M_PI) / 180)
         
-        var oval4Path = UIBezierPath(ovalInRect: CGRectMake(0, 0, 9, 1))
+        let oval4Path = UIBezierPath(ovalInRect: CGRectMake(0, 0, 9, 1))
         tintColor.setFill()
         oval4Path.fill()
         

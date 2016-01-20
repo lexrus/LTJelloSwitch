@@ -28,7 +28,7 @@ public class LTJelloView: UIView {
     
     public var dragOffsetX: CGFloat = 0 {
         didSet {
-            if let s = self.superview as UIView? {
+            if let _ = self.superview as UIView? {
                 if self.dragging {
                     self.pullingOffsetX = -200 * sin(dragOffsetX / 320)
                 }
@@ -43,7 +43,7 @@ public class LTJelloView: UIView {
         }
     }
     
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
@@ -61,8 +61,6 @@ public class LTJelloView: UIView {
     // MARK: - Drawing
     
     public override func drawRect(rect: CGRect) {
-        let jelloHeight = bounds.size.height
-        let facePointY = jelloHeight / 3.0 * 2.0
         let jelloOffsetX = pullingOffsetX + 2
         
         let faceOffsetPoint = CGPointMake(jelloOffsetX, 28)
@@ -72,7 +70,7 @@ public class LTJelloView: UIView {
         CGContextTranslateCTM(context, 265, 0)
         
         //// Bezier Drawing
-        var bezierPath = UIBezierPath()
+        let bezierPath = UIBezierPath()
         bezierPath.moveToPoint(CGPointMake(200, 0.5))
         bezierPath.addLineToPoint(CGPointMake(12.5, 0.5))
         bezierPath.addCurveToPoint(CGPointMake(10.5, 12.5), controlPoint1: CGPointMake(12.5, 0.5), controlPoint2: CGPointMake(12.5, 6.5))
